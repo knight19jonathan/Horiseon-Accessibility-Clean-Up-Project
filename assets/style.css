@@ -7,7 +7,7 @@
 }
 
 /* Source from orignal Urban-octo-telegram 
-Source file link:  */
+Source file link: https://github.com/coding-boot-camp/urban-octo-telegram */
 
 body {
     background-color: #d9dcd6;
@@ -51,17 +51,11 @@ li {
     text-align: right;
     margin-right: 20px;
 }
-
-/* Styling of subheaders in blocks below first image */
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
 /* controls for large image files so it can be displayed on different medias */
 .background-image {
     display: block;
     max-width: 100%;
+    margin-bottom: 25px;
 }
 
 .seo {
@@ -75,12 +69,28 @@ h2 {
     float:left
 }
 
+/* styling for bottom lefts rows content */
 
 .content {
     width: 75%;
     display: inline-block;
-    padding: 20px;
+    padding-left: 20px;
 }
+
+/* Styling of subheaders in blocks below first image */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+/* Text styling in paragraps */
+p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
 .image-seo {
     float: left;
     max-height: 200px;
@@ -92,6 +102,37 @@ h2 {
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;   
+    background-color: #0072bb; 
+}
+
+/* styling for bottom right bar content */
+
+.right-bar-content {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    display: inline-block;   
+    padding-top: 20px;
+}
+
+/* style for headers on colums */
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+/* styling for graphical icons on right hand column */
+
+.graphic {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
