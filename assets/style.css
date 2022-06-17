@@ -1,0 +1,94 @@
+/* Reset in browser styles to null */
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Source from orignal Urban-octo-telegram 
+Source file link:  */
+
+body {
+    background-color: #d9dcd6;
+}
+
+/* Header link code Source above */
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    font-size: larger;
+    display: block;
+    padding: 20px;
+    
+} 
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.background-image {
+    display: block;
+    max-width: 100%;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+.toplabel {
+    margin-left: 20px;
+    font-size: 48px;
+    color:#ffffff;
+    float:left
+}
+
+/* styling for header links */
+
+.toplink {
+    color:#ffffff;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+
+.listlink {
+    text-align: right;
+    margin-right: 20px;
+}
+.content {
+    width: 75%;
+    display: inline-block;
+    padding: 20px;
+}
+.image-seo {
+    float: left;
+    max-height: 200px;
+    object-fit: scale-down;
+    padding-right: 15px;
+}
+.seo-block {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    flex-wrap: wrap;
+    display: flex;
+}
