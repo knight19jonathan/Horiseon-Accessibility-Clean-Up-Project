@@ -1,4 +1,5 @@
 /* Reset in browser styles to null */
+/* Written from ground up by Jonathan Knight  */
 * {
     text-decoration: none;
     margin: 0;
@@ -23,8 +24,11 @@ header {
     left: 0;
     top: 0;
     font-size: 20px;
-    display: block;
-    padding: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 } 
 
@@ -35,21 +39,26 @@ header {
     float: right;
 }
 
+/* removing html link styling from in page links */
+
 a {
     text-decoration: none;
 }
 
+/* formatting link list */
+
 li {
     list-style-type: none;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 15px;
     padding-top: 15px;
-    padding-right: 15px;
 }
+
+/* aligning company header text to the left */
 
 .listlink {
     text-align: right;
-    margin-right: 20px;
+    
 }
 /* controls for large image files so it can be displayed on different medias */
 .background-image {
@@ -63,7 +72,6 @@ li {
 }
 
 .toplabel {
-    margin-left: 20px;
     font-size: 48px;
     color:#ffffff;
     float:left
@@ -91,12 +99,17 @@ p {
     font-size: 16px;
 }
 
+/* styling for smaller images in left rows */
+
 .image-seo {
     float: left;
     max-height: 200px;
     object-fit: scale-down;
     padding-right: 15px;
 }
+
+/* styles rules for left blue boxes in rows */
+
 .seo-block {
     margin-bottom: 20px;
     padding: 50px;
