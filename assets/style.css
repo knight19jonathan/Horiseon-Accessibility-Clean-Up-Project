@@ -10,10 +10,6 @@
 /* Source from orignal Urban-octo-telegram 
 Source file link: https://github.com/coding-boot-camp/urban-octo-telegram */
 
-body {
-    background-color: #d9dcd6;
-}
-
 /* Header link code Source above */
 
 header {
@@ -31,6 +27,7 @@ header {
     padding-right: 10px;
     
 } 
+
 
 /* styling for header links */
 
@@ -60,6 +57,11 @@ li {
     text-align: right;
     
 }
+
+body {
+    background-color: #d9dcd6;
+}
+
 /* controls for large image files so it can be displayed on different medias */
 .background-image {
     display: block;
@@ -150,3 +152,37 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* tablet suopport accessibiliyu */
+
+@media screen and (max-width: 992px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content,
+    .right-bar-content {
+        width: 100%;
+    }
+    .right-bar-content {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    header {
+        display: flex;
+        justify-content: center;
+
+    }
+}
+/*  --- TBD ---
+@media screen and (max-width: 758px) {
+    .seo-block {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    
+    
+} */
