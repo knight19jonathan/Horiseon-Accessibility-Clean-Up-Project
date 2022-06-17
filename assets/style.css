@@ -34,6 +34,7 @@ header {
 .toplink {
     color:#ffffff;
     float: right;
+    font-weight: 50;
 }
 
 /* removing html link styling from in page links */
